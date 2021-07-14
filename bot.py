@@ -38,7 +38,6 @@ def main():
     # Make sure to set use_context=True to use the new context based callbacks
     # Post version 12 this will no longer be necessary
     updater = Updater(config.token, use_context=True)
-    #updater = Updater("1506115879:AAHC5uUK51CMANm_mprhzzjNcSQpMni2oN0", use_context=True)
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
 
